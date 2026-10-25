@@ -1,0 +1,98 @@
+{
+  "title": "My account",
+  "trialNote": "Free trial · plans and billing arrive in a later update",
+  "tabs": {
+    "profile": "Profile",
+    "security": "Security",
+    "sessions": "Sign-ins"
+  },
+  "roles": {
+    "secretary": "Secretary",
+    "admin": "Admin",
+    "finance": "Finance",
+    "member": "Team member",
+    "self_service": "Field staff"
+  },
+  "profile": {
+    "name": "Full name",
+    "email": "Email",
+    "language": "Language",
+    "save": "Save profile",
+    "saved": "Saved"
+  },
+  "security": {
+    "passwordTitle": "Password",
+    "mfaTitle": "Two-step sign-in",
+    "mfaOn": "On",
+    "mfaOff": "Off",
+    "mfaRequired": "Your role needs two-step sign-in. Keep a backup authenticator in case you lose your phone.",
+    "mfaOptional": "Recommended: a code from an authenticator app each time you sign in.",
+    "added": "Added {date}",
+    "remove": "Remove",
+    "addBackup": "Add a backup authenticator",
+    "enable": "Turn on two-step sign-in"
+  },
+  "sessions": {
+    "signOutTitle": "Signed-in devices",
+    "signOutIntro": "Lost a phone or used a shared computer? Sign out everywhere else.",
+    "signOutOthers": "Sign out of other devices",
+    "signOutAll": "Sign out everywhere",
+    "activityTitle": "Recent sign-in activity",
+    "empty": "No sign-in activity yet.",
+    "when": "When (IST)",
+    "what": "Event",
+    "device": "Device",
+    "ip": "IP address",
+    "events": {
+      "sign_in": "Signed in",
+      "username_login": "Signed in with username",
+      "console_sign_in": "Console sign-in",
+      "sign_in_failed": "Failed sign-in",
+      "password_changed": "Password changed",
+      "mfa_verified": "Two-step code used"
+    }
+  },
+  "org": {
+    "switchLabel": "Organisation: {org}. Switch organisation",
+    "yourOrgs": "Your organisations",
+    "create": "Create another organisation"
+  },
+  "menu": {
+    "open": "Account menu",
+    "account": "My account",
+    "signOut": "Sign out"
+  },
+  "home": {
+    "title": "Home",
+    "greeting": "Namaste, {name}",
+    "greetingNoName": "Namaste",
+    "checklistTitle": "Getting started",
+    "checklistIntro": "These steps unlock as ImpactOS modules are switched on for your organisation.",
+    "steps": {
+      "createOrg": {
+        "title": "Create your organisation",
+        "body": "Your workspace and web address are ready."
+      },
+      "secureAccount": {
+        "title": "Secure your account",
+        "body": "Turn on two-step sign-in from My account → Security."
+      },
+      "inviteTeam": {
+        "title": "Invite your team",
+        "body": "Add colleagues by email, and field staff with a username."
+      },
+      "governance": {
+        "title": "Set up governance",
+        "body": "Answer your Internal Control Framework so approvals follow your policy."
+      },
+      "firstProgram": {
+        "title": "Add your first program",
+        "body": "Register beneficiaries and record services."
+      }
+    },
+    "done": "Done",
+    "comingUp": "Coming up",
+    "orgNote": "Your public pages will live at this address.",
+    "fcra": "FCRA registered"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": {
+      "title": "होम"
+    },
+    "program": {
+      "title": "कार्यक्रम",
+      "overview": "अवलोकन",
+      "programs": "कार्यक्रम सूची",
+      "beneficiaries": "लाभार्थी",
+      "services": "सेवाएँ",
+      "activities": "गतिविधि",
+      "batches": "बैच",
+      "assessments": "मूल्यांकन",
+      "externalPrograms": "बाहरी कार्यक्रम",
+      "indicators": "संकेतक",
+      "milestones": "उपलब्धियाँ",
+      "reports": "रिपोर्ट"
+    },
+    "media": {
+      "title": "फ़ील्ड मीडिया",
+      "upload": "अपलोड",
+      "gallery": "गैलरी",
+      "storage": "स्टोरेज"
+    },
+    "marketing": {
+      "title": "मार्केटिंग",
+      "dashboard": "डैशबोर्ड",
+      "calendar": "कंटेंट कैलेंडर",
+      "campaigns": "अभियान",
+      "awarenessDays": "जागरूकता दिवस",
+      "stories": "कहानियाँ और केस स्टडी",
+      "brandKit": "ब्रांड किट"
+    },
+    "fundraising": {
+      "title": "धन संग्रह",
+      "overview": "अवलोकन",
+      "donations": "दान",
+      "donors": "दाता",
+      "receipts": "रसीदें",
+      "onlineDonations": "ऑनलाइन दान",
+      "communication": "संवाद",
+      "reports": "रिपोर्ट"
+    },
+    "hr": {
+      "title": "मानव संसाधन",
+      "overview": "अवलोकन",
+      "employees": "कर्मचारी",
+      "attendance": "हाज़िरी",
+      "leave": "छुट्टी",
+      "claims": "खर्च दावे"
+    },
+    "organisation": {
+      "title": "संगठन",
+      "overview": "अवलोकन",
+      "profile": "प्रोफ़ाइल",
+      "requests": "अनुरोध-स्वीकृति"
+    },
+    "governance": {
+      "title": "शासन",
+      "overview": "अवलोकन",
+      "setup": "सेटअप (ICF)"
+    },
+    "compliance": {
+      "title": "अनुपालन",
+      "overview": "अवलोकन",
+      "calendar": "कैलेंडर"
+    },
+    "workplace": {
+      "title": "कार्यस्थल",
+      "announcements": "घोषणाएँ",
+      "tasks": "काम"
+    },
+    "admin": {
+      "title": "एडमिन",
+      "users": "उपयोगकर्ता",
+      "fields": "फ़ील्ड और कॉलम",
+      "roles": "भूमिकाएँ",
+      "positions": "पद",
+      "activityLogs": "गतिविधि लॉग"
+    },
+    "finance": {
+      "title": "वित्त"
+    }
+  },
+  "shell": {
+    "mainNav": "मुख्य नेविगेशन",
+    "skipToContent": "मुख्य सामग्री पर जाएँ",
+    "openMenu": "मेनू खोलें",
+    "closeMenu": "मेनू बंद करें",
+    "closePanel": "पैनल बंद करें",
+    "language": "भाषा",
+    "theme": "रंग थीम",
+    "themeLight": "हल्की",
+    "themeDark": "गहरी",
+    "themeSystem": "डिवाइस जैसी",
+    "breadcrumb": "पथ",
+    "soon": "जल्द",
+    "noModulesYet": "आपके संगठन के लिए मॉड्यूल चालू होते ही यहाँ दिखेंगे।"
+  },
+  "errors": {
+    "title": "कुछ गड़बड़ हो गई",
+    "body": "पेज लोड नहीं हो सका। फिर से कोशिश करें; बार-बार हो तो यह गड़बड़ी ImpactOS टीम को भेज दी गई है।",
+    "retry": "फिर से कोशिश करें",
+    "home": "होम पेज पर जाएँ",
+    "notFoundTitle": "पेज नहीं मिला",
+    "notFoundBody": "यह पता किसी पेज से मेल नहीं खाता। लिंक जाँचें या मेनू इस्तेमाल करें।"
+  }
+}

@@ -85,3 +85,5 @@ to authenticated using (public.has_support_grant(organization_id));`
 
 Vercel project with `theimpactos.in`, `app.`, `console.` and `*.theimpactos.in` (wildcard needs Vercel nameservers).
 Set `NEXT_PUBLIC_APP_URL`, `NEXT_PUBLIC_ROOT_DOMAIN` and the Sentry variables for staging and production.
+
+

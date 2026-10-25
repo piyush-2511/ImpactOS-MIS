@@ -1,0 +1,165 @@
+{
+  "title": "Billing",
+  "crumb": "Admin",
+  "intro": "Your plan, usage and invoices. ImpactOS never deletes your data for late payment.",
+  "unbilled": "{amount} will be added to your next invoice (upgrades, extra usage).",
+  "dataPromise": "Invoices are payable from domestic (non-FC) funds. Read-only mode lets you view, export and pay, but not change records.",
+  "usage": {
+    "title": "Usage",
+    "keys": {
+      "staff_seats": "Staff seats",
+      "beneficiaries": "Beneficiaries",
+      "storage_gb": "Storage (GB)",
+      "ai_units": "AI units this month",
+      "custom_fields": "Custom fields"
+    },
+    "unlimited": "{used} used · unlimited",
+    "ofLimit": "{used} of {limit}",
+    "note": "When a limit is reached, adding more is paused; nothing you already have is affected. Field staff with only the self-service role are free."
+  },
+  "plan": {
+    "title": "Plan",
+    "status": {
+      "trialing": "Free trial",
+      "active": "Active",
+      "past_due": "Payment overdue",
+      "read_only": "Read-only",
+      "cancelled": "Cancelled",
+      "none": "No subscription"
+    },
+    "trialing": "Free trial of {plan}: {days} days left. Choose the plan to continue with after the trial.",
+    "current": "{plan} · {price} {period}",
+    "per": {
+      "monthly": "per month",
+      "annual": "per year"
+    },
+    "pending": "Changes to {plan} at the start of the next billing period.",
+    "periodLabel": "Billing period",
+    "periods": {
+      "monthly": "Monthly",
+      "annual": "Yearly (2 months free)"
+    },
+    "yourPlan": "Your plan",
+    "gstExtra": "plus GST if applicable",
+    "seats": "{n} staff seats",
+    "storage": "{n} GB for photos and files",
+    "modules": "{n} modules",
+    "selected": "Selected",
+    "choose": "Choose",
+    "switch": "Switch",
+    "rules": "Upgrades apply now; the rest of this period is charged pro rata on your next invoice. Downgrades apply from the next period. Prices are before GST.",
+    "failed": "Could not change the plan. Try again.",
+    "downgradeBlocked": "Your current usage is above that plan's limits ({limits}). Reduce it first.",
+    "limitNames": {
+      "staff_seats": "Staff seats",
+      "beneficiaries": "Beneficiaries",
+      "storage_gb": "Storage (GB)",
+      "ai_units": "AI units this month",
+      "custom_fields": "Custom fields"
+    },
+    "applied": {
+      "trial": "Saved. Your first invoice will use this plan.",
+      "now": "Upgraded. The difference for this period will be on your next invoice.",
+      "nextPeriod": "Saved. The change starts with your next billing period."
+    }
+  },
+  "invoices": {
+    "title": "Invoices",
+    "none": "No invoices yet.",
+    "number": "Invoice",
+    "period": "Period",
+    "due": "Due",
+    "amount": "Amount",
+    "status": "Status",
+    "actions": "Actions",
+    "paid": "Paid",
+    "void": "Cancelled",
+    "checking": "Checking payment",
+    "overdue": "Overdue",
+    "open": "Open"
+  },
+  "pay": {
+    "pay": "Pay",
+    "close": "Close",
+    "title": "Pay {number}: {amount}",
+    "intro": "Scan the QR with any UPI app, or transfer to the bank account. Then enter the UTR (transaction reference) so we can confirm it.",
+    "qrAlt": "UPI QR code for {amount}",
+    "upi": "UPI ID",
+    "bank": "Bank transfer",
+    "reference": "Reference",
+    "openUpiApp": "Open a UPI app",
+    "fc": "Please pay from domestic (non-FC) funds.",
+    "utr": "UTR / transaction reference",
+    "method": "Paid by",
+    "methods": {
+      "upi": "UPI",
+      "bank": "Bank transfer",
+      "cheque": "Cheque",
+      "other": "Other"
+    },
+    "amount": "Amount (₹)",
+    "paidOn": "Paid on",
+    "submit": "Report payment",
+    "submitted": "Thank you. We will confirm the payment within one working day.",
+    "errors": {
+      "utrInvalid": "Check the UTR: 6–40 letters and numbers.",
+      "amountInvalid": "Enter the amount paid.",
+      "dateInvalid": "Enter the payment date.",
+      "utrUsed": "This UTR has already been reported.",
+      "forbidden": "You do not have permission to do this.",
+      "generic": "Something went wrong. Try again.",
+      "invalid": "Check the details.",
+      "notFound": "This invoice is no longer open."
+    }
+  },
+  "support": {
+    "title": "Support access",
+    "crumb": "Admin",
+    "intro": "Let the ImpactOS team look at your records to fix a problem. Access is read-only, ends automatically, and every page they open is listed below.",
+    "breakGlass": "Emergency access",
+    "active": "Access on",
+    "until": "Until {when}",
+    "end": "End access",
+    "revoked": "Access ended",
+    "duration": "For",
+    "hours": "{n, plural, one {# hour} other {# hours}}",
+    "reason": "What should they look at?",
+    "reasonPlaceholder": "e.g. Import fails on Hindi names",
+    "grant": "Give access",
+    "granted": "Access given",
+    "logTitle": "What ImpactOS viewed",
+    "logEmpty": "Nothing yet.",
+    "errors": {
+      "hoursInvalid": "Choose 4, 24 or 72 hours.",
+      "reasonShort": "Describe the problem in a few words.",
+      "tooLong": "That is too long.",
+      "forbidden": "Only the Secretary can give access.",
+      "generic": "Something went wrong. Try again.",
+      "invalid": "Check the details.",
+      "readOnly": "Not available in read-only mode."
+    }
+  },
+  "help": {
+    "open": "Help",
+    "title": "Ask ImpactOS support",
+    "intro": "Tell us what went wrong. We reply by notification, usually within one working day.",
+    "subject": "Subject",
+    "body": "What happened?",
+    "bodyPlaceholder": "What were you trying to do, and what did you see?",
+    "privacy": "Do not include Aadhaar, bank or medical details. If we need to look at your records, your Secretary can give us temporary access.",
+    "send": "Send",
+    "sent": "Sent. We will reply soon.",
+    "close": "Close",
+    "failed": "Could not send. Try again.",
+    "check": "Add a subject and a short description."
+  },
+  "banners": {
+    "readOnly": "Your workspace is read-only because an invoice is unpaid. You can still view, export and pay.",
+    "pastDue": "An invoice is overdue. Please pay to avoid read-only mode.",
+    "trial": "Your free trial ends in {days, plural, =0 {less than a day} one {# day} other {# days}}.",
+    "payNow": "Pay now",
+    "choosePlan": "Choose a plan",
+    "support": "ImpactOS support can view your records until {until}.",
+    "manage": "Manage access"
+  }
+}
