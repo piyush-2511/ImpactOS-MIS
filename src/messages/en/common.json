@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": {
+      "title": "Home"
+    },
+    "program": {
+      "title": "Program",
+      "overview": "Overview",
+      "programs": "Program list",
+      "beneficiaries": "Beneficiaries",
+      "services": "Services",
+      "activities": "Activity",
+      "batches": "Batch",
+      "assessments": "Assessment",
+      "externalPrograms": "External program",
+      "indicators": "Indicators",
+      "milestones": "Milestones",
+      "reports": "Reports"
+    },
+    "media": {
+      "title": "Field media",
+      "upload": "Upload",
+      "gallery": "Gallery",
+      "storage": "Storage"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "dashboard": "Dashboard",
+      "calendar": "Content calendar",
+      "campaigns": "Campaigns",
+      "awarenessDays": "Awareness days",
+      "stories": "Stories and case studies",
+      "brandKit": "Brand kit"
+    },
+    "fundraising": {
+      "title": "Fundraising",
+      "overview": "Overview",
+      "donations": "Donations",
+      "donors": "Donors",
+      "receipts": "Receipts",
+      "onlineDonations": "Online donations",
+      "communication": "Communication",
+      "reports": "Reports"
+    },
+    "hr": {
+      "title": "HR",
+      "overview": "Overview",
+      "employees": "Employee DB",
+      "attendance": "Attendance",
+      "leave": "Leave",
+      "claims": "Claims"
+    },
+    "organisation": {
+      "title": "Organisation",
+      "overview": "Overview",
+      "profile": "Profile",
+      "requests": "Request-Approval"
+    },
+    "governance": {
+      "title": "Governance",
+      "overview": "Overview",
+      "setup": "Setup (ICF)"
+    },
+    "compliance": {
+      "title": "Compliance",
+      "overview": "Overview",
+      "calendar": "Calendar"
+    },
+    "workplace": {
+      "title": "Workplace",
+      "announcements": "Announcements",
+      "tasks": "Tasks"
+    },
+    "admin": {
+      "title": "Admin",
+      "users": "Users",
+      "fields": "Fields and columns",
+      "roles": "Roles",
+      "positions": "Positions",
+      "activityLogs": "Activity log",
+      "optionLists": "Option lists",
+      "billing": "Billing",
+      "supportAccess": "Support access"
+    },
+    "finance": {
+      "title": "Finance"
+    }
+  },
+  "shell": {
+    "mainNav": "Main navigation",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "closePanel": "Close panel",
+    "language": "Language",
+    "theme": "Colour theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "Same as device",
+    "breadcrumb": "Breadcrumb",
+    "soon": "Soon",
+    "noModulesYet": "Modules appear here as they are switched on for your organisation."
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "body": "The page could not load. Try again; if it keeps happening, the error has been reported to the ImpactOS team.",
+    "retry": "Try again",
+    "home": "Go to the home page",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "This address does not match a page. Check the link or use the menu."
+  }
+}

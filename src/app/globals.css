@@ -1,0 +1,206 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Dark mode follows the system unless the user picks a theme (next-themes sets data-theme on <html>). */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* ImpactOS tokens: see references/ui-design.md. Shadcn variable names map onto the brand palette. */
+:root {
+  --navy: #062746;
+  --navy-700: #17395b;
+  --green: #46b037;
+  --sidebar: #062746;
+  --sidebar-foreground: #e1e7ed;
+  --sidebar-muted: #a9bccf;
+  --sidebar-accent: #17395b;
+  --console-sidebar: #0d1b2a;
+
+  --background: #e1e7ed;
+  --foreground: #062746;
+  --card: #ffffff;
+  --card-foreground: #062746;
+  --popover: #ffffff;
+  --popover-foreground: #062746;
+  --primary: #062746;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f4f7;
+  --secondary-foreground: #062746;
+  --muted: #f1f4f7;
+  --muted-foreground: #44566a;
+  --accent: #eef3f8;
+  --accent-foreground: #062746;
+  --destructive: #b42318;
+  --border: #cbd5df;
+  --input: #a3b3c2;
+  --ring: #2e86de;
+  --link: #0b4f8a;
+
+  --ok-bg: #e3f4e0;
+  --ok-fg: #1e5e17;
+  --info-bg: #dce8f5;
+  --info-fg: #0b3a66;
+  --warn-bg: #fdf0d9;
+  --warn-fg: #7a4a00;
+  --bad-bg: #fbe3e1;
+  --bad-fg: #8a1c12;
+  --neutral-bg: #eef1f4;
+  --neutral-fg: #2d3e50;
+  --idea-bg: #f4eefb;
+  --idea-fg: #4b2a7b;
+
+  --radius: 0.75rem;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --sidebar: #061a2e;
+    --console-sidebar: #050e17;
+    --background: #0b1724;
+    --foreground: #e6edf3;
+    --card: #11212f;
+    --card-foreground: #e6edf3;
+    --popover: #11212f;
+    --popover-foreground: #e6edf3;
+    --primary: #cfe3f5;
+    --primary-foreground: #062746;
+    --secondary: #182b3c;
+    --secondary-foreground: #e6edf3;
+    --muted: #182b3c;
+    --muted-foreground: #a7b8c8;
+    --accent: #1c3550;
+    --accent-foreground: #e6edf3;
+    --destructive: #f5a9a2;
+    --border: #2a4157;
+    --input: #3d5670;
+    --link: #8cc4f5;
+    --ok-bg: #163a1a;
+    --ok-fg: #9be08e;
+    --info-bg: #12304d;
+    --info-fg: #a9d0f5;
+    --warn-bg: #3d2c0c;
+    --warn-fg: #f5c979;
+    --bad-bg: #43191a;
+    --bad-fg: #f5a9a2;
+    --neutral-bg: #1e2f40;
+    --neutral-fg: #c8d4e0;
+    --idea-bg: #2d2245;
+    --idea-fg: #d2c0f2;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --sidebar: #061a2e;
+  --console-sidebar: #050e17;
+  --background: #0b1724;
+  --foreground: #e6edf3;
+  --card: #11212f;
+  --card-foreground: #e6edf3;
+  --popover: #11212f;
+  --popover-foreground: #e6edf3;
+  --primary: #cfe3f5;
+  --primary-foreground: #062746;
+  --secondary: #182b3c;
+  --secondary-foreground: #e6edf3;
+  --muted: #182b3c;
+  --muted-foreground: #a7b8c8;
+  --accent: #1c3550;
+  --accent-foreground: #e6edf3;
+  --destructive: #f5a9a2;
+  --border: #2a4157;
+  --input: #3d5670;
+  --link: #8cc4f5;
+  --ok-bg: #163a1a;
+  --ok-fg: #9be08e;
+  --info-bg: #12304d;
+  --info-fg: #a9d0f5;
+  --warn-bg: #3d2c0c;
+  --warn-fg: #f5c979;
+  --bad-bg: #43191a;
+  --bad-fg: #f5a9a2;
+  --neutral-bg: #1e2f40;
+  --neutral-fg: #c8d4e0;
+  --idea-bg: #2d2245;
+  --idea-fg: #d2c0f2;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: var(--font-plex-sans), var(--font-plex-devanagari), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-link: var(--link);
+  --color-navy: var(--navy);
+  --color-green: var(--green);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-muted: var(--sidebar-muted);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-console-sidebar: var(--console-sidebar);
+  --color-ok-bg: var(--ok-bg);
+  --color-ok-fg: var(--ok-fg);
+  --color-info-bg: var(--info-bg);
+  --color-info-fg: var(--info-fg);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-fg: var(--warn-fg);
+  --color-bad-bg: var(--bad-bg);
+  --color-bad-fg: var(--bad-fg);
+  --color-neutral-bg: var(--neutral-bg);
+  --color-neutral-fg: var(--neutral-fg);
+  --color-idea-bg: var(--idea-bg);
+  --color-idea-fg: var(--idea-fg);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-padding-top: env(safe-area-inset-top, 0px);
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  a {
+    color: var(--link);
+  }
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+  .font-mono,
+  code {
+    font-variant-numeric: tabular-nums;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

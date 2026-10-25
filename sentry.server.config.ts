@@ -1,0 +1,17 @@
+import * as Sentry from '@sentry/nextjs';
+
+Sentry.init({
+  dsn: process.env.SENTRY_DSN || undefined,
+  enabled: !!process.env.SENTRY_DSN,
+  environment: process.env.VERCEL_ENV ?? process.env.NODE_ENV,
+  tracesSampleRate: 0.1,
+  // NGOs hold beneficiary and donor data: collect no personal data, cookies, headers, bodies or query strings.
+  dataCollection: {
+    userInfo: false,
+    cookies: false,
+    httpHeaders: false,
+    httpBodies: [],
+    urlQueryParams: false,
+    graphQL: { document: false, variables: false },
+  },
+});
